@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['id'] = $gebruiker['id'];   
 
         if ($gebruiker['gebruiker_id'] == 'gebruiker' || $gebruiker['gebruiker_id'] == 'HR' || $gebruiker['gebruiker_id'] == 'Facturisatie') {
-        header("Location: index.php");
+        header("Location: index.sq.php");
         exit;
 }
     }
