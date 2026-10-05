@@ -1,0 +1,387 @@
+a {
+    color: black;
+}
+
+a:hover {
+    color: #00365E;
+}
+
+.allesinlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.medewerker-urenregistratie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.allesproject {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 800px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DD0069;
+    border-radius: 20px;
+}
+
+.allesprojectcentreer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+}
+
+body {
+    background-color: #00365E;
+    margin: 0;
+}
+
+.btn {
+    width: 50%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #00365E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    width: 60%;
+    height: 60px;
+    background: #DD0069;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    color: #00365E;
+}
+
+.cijfers {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.gebruikersnaam {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.gildelogo {
+    display: flex;
+    justify-content: flex-start;
+    width: 40px;
+    height: 200px;
+}
+
+    .homekolom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hometekst {
+        display: flex;
+        font-size: 40px;
+        justify-content: center;
+        margin-top: 120px;
+        border-radius: 20px;
+        background-color: #DD0069;
+        width: 300px;
+    }
+
+.hometekstkolom {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: 120px;
+    border-radius: 20px;
+    background-color: #DD0069;
+    width: 1000px;
+}
+
+.inlog {
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    color: #00365E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inloggen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inlogkleuren {
+    width: 520px;
+    height: 500px;
+    background-color: #DD0069;
+    border: 2px solid #DD0069;
+    border-radius: 40px;
+}
+
+.knopopslaan {
+    width: 200px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #00365E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.medewerker-alles {
+    display: flex;
+    justify-content: center;
+}
+
+.medewerker-urenkleuren {
+    width: 1000px;
+    height: 950px;
+    background-color: #DD0069;
+    border: #DD0069;
+    border-radius: 40px;
+}
+
+.medewerker-urenregistratie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.medewerker-urenregistratietyp {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    font-size: 30px;
+    background-color: #DD0069;
+    padding: 15px;
+
+}
+
+.navigatiebalk {
+    display: flex;
+    justify-content: center;
+    background-color: #DD0069;
+    border-radius: 40px;
+}
+
+.opslaanuitlogbuttons {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.resultatenperpersoon {
+    background-color: #DD0069;
+    color: white;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px;
+    color: white;
+}
+
+.urenregistratie {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    background-color: #DD0069;
+}
+
+.versturen {
+    display: flex;
+    justify-content: center;
+}
+
+.wachtwoord {
+    width: 100%;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+.zoekbalkdataperpersoon{
+    width: 300px;
+    height: 350px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #DD0069;
+}
+
+.knopuitlog{
+    width: 200px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #DD0069;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resultatendataperpersoon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DD0069;
+    border-radius: 20px;
+    width: 800px;
+    }
+.resultatendataperpersoon table {
+    border-collapse: collapse;
+
+}
+.centreerresultatendataperpersoon{
+display: flex;
+justify-content: center;
+}
+.centreerzoekbalkdataperpersoon{
+display: flex;
+justify-content: center; 
+align-items: center; 
+margin-top: 30px;
+}
+.zoekendataophalenperpersoon button{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #00365E;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.geenresultatendataperpersoon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DD0069;
+    border-radius: 20px;
+    width: 200px;
+
+}
+.accountaanmakencentreer{
+margin-top: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.accountaanmakenbalk{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DD0069;
+    border-radius: 20px;
+    width: 800px;
+    height: 500px;
+}
+.dataophalenallepersonencentreer{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+.dataophalenallepersonenbalk{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DD0069;
+    border-radius: 20px;
+    width: 805px;
+    height: auto;
+}
+.menu a{
+text-decoration: none   ;
+}
+     .plaatje{
+        display: flex;
+        height: 100px;
+        
+        }
+        .buttonuitloghome{
+display: flex;
+justify-content: flex-end;
+margin-right: 20px;
+margin-top: 10%;
+}
+
+.knopuitlogurenregistreren{
+    width: 200px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #00365E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttonuitlogprojecten{
+display: flex;
+justify-content: flex-end;
+}
